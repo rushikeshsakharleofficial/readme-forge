@@ -14,13 +14,7 @@
         "name": "Rushikesh Sakharle"
       },
       "category": "development",
-      "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/rushikeshsakharleofficial/readme-forge.git",
-        "path": ".",
-        "ref": "main",
-        "sha": "21849ee764ec1f94570a5134c788cfc80e476279"
-      },
+      "source": "./",
       "homepage": "https://github.com/rushikeshsakharleofficial/readme-forge"
     }
   ]
