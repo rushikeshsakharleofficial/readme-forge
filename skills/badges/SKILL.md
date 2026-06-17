@@ -1,17 +1,7 @@
 ---
 name: badges
-description: Generate a shields.io badge set for the current project. Auto-detects what badges are appropriate.
-trigger: /readme-forge:badges
-args:
-  - name: --style
-    values: [for-the-badge, flat, flat-square]
-    default: auto
-  - name: --dark
-    type: flag
-    description: Use dark (black) badge backgrounds
-  - name: --light
-    type: flag
-    description: Use standard shields.io default colors
+description: Generate a verified shields.io badge row for the current project. Only adds badges for things that exist (CI badge needs a workflow file, npm badge needs a published package, license badge needs LICENSE file). Supports --dark for black backgrounds, --light for standard colors.
+argument-hint: "[--dark] [--light] [--style for-the-badge|flat|flat-square]"
 ---
 
 # Badge Generator

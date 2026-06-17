@@ -1,26 +1,7 @@
 ---
 name: readme
-description: Generate production-quality README from project context. Auto-detects type, stack, and style.
-trigger: /readme-forge:readme
-args:
-  - name: --style
-    values: [rich, minimal, dark]
-    default: auto
-  - name: --type
-    values: [library, cli-tool, saas-app, plugin, api, open-source]
-    default: auto
-  - name: --update
-    type: flag
-    description: Update an existing README instead of replacing it
-  - name: --section
-    type: string
-    description: Generate only one section (badges, hero, features, install, usage, api, config, contributing)
-  - name: --no-badges
-    type: flag
-    description: Skip badges
-  - name: --light
-    type: flag
-    description: Use light-theme badge colors instead of dark
+description: Generate or update a production-quality README.md for any project. Auto-detects project type (library, cli-tool, saas-app, plugin, api) and stack. Supports --style rich|minimal|dark, --type override, --update to refresh existing README, --section to generate one section only, --no-badges to skip badges.
+argument-hint: "[--style rich|minimal|dark] [--type library|cli-tool|saas-app|plugin|api] [--update] [--section features|install|usage|api|config|badges]"
 ---
 
 # README Forge — The Brain

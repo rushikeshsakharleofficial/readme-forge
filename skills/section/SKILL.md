@@ -1,14 +1,7 @@
 ---
 name: section
-description: Generate or rewrite a single README section. Use when you want to add or update one section without regenerating the whole README.
-trigger: /readme-forge:section
-args:
-  - name: section-name
-    required: true
-    values: [badges, hero, features, install, usage, api, config, contributing, license, changelog, structure]
-  - name: --style
-    values: [rich, minimal, dark]
-    default: auto
+description: Generate or rewrite a single README section without touching the rest of the file. Supported sections: badges, hero, features, install, usage, api, config, contributing, license, changelog, structure. Supports --style rich|minimal|dark.
+argument-hint: "<section-name> [--style rich|minimal|dark]"
 ---
 
 # README Section Generator
