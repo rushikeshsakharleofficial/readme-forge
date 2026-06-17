@@ -1,21 +1,27 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "readme-forge",
-  "displayName": "README Forge",
-  "description": "AI-powered README generator for Claude Code. Reads your project structure, detects your stack, and writes production-quality documentation — not boilerplate.",
-  "version": "1.0.0",
-  "author": "readme-forge",
-  "license": "MIT",
-  "tags": ["readme", "documentation", "generator", "markdown", "productivity"],
-  "categories": ["documentation", "productivity"],
-  "skills": ["readme", "section", "badges"],
-  "examples": [
-    "/readme-forge:readme",
-    "/readme-forge:readme --style rich",
-    "/readme-forge:readme --style minimal",
-    "/readme-forge:readme --type library",
-    "/readme-forge:readme --update",
-    "/readme-forge:section features",
-    "/readme-forge:badges"
-  ],
-  "keywords": ["readme", "documentation", "markdown", "generator", "badges", "shields"]
+  "description": "Auto-generates production-quality README files for Claude Code. Stack-aware, 6 project types, 3 output styles, zero placeholder text.",
+  "owner": {
+    "name": "Rushikesh Sakharle",
+    "email": "rishiananya123@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "readme-forge",
+      "description": "Production-quality README generator. Reads your project, detects type and stack, writes docs that look handcrafted — not templated. 6 project types, 3 styles (rich/minimal/dark), verified badges, SEO-optimized output.",
+      "author": {
+        "name": "Rushikesh Sakharle"
+      },
+      "category": "development",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rushikeshsakharleofficial/readme-forge.git",
+        "path": ".",
+        "ref": "main",
+        "sha": "3a48e02bfdd6ddada367f3c2934739c16d8160f7"
+      },
+      "homepage": "https://github.com/rushikeshsakharleofficial/readme-forge"
+    }
+  ]
 }

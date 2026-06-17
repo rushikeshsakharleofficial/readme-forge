@@ -2,28 +2,24 @@
   "name": "readme-forge",
   "version": "1.0.0",
   "description": "Production-quality README generator. Reads your project, detects your stack, and writes docs that look handcrafted — not templated.",
-  "author": "readme-forge",
+  "author": {
+    "name": "Rushikesh Sakharle",
+    "email": "rishiananya123@gmail.com"
+  },
+  "homepage": "https://github.com/rushikeshsakharleofficial/readme-forge",
+  "repository": "https://github.com/rushikeshsakharleofficial/readme-forge",
   "license": "MIT",
-  "skills": [
-    {
-      "name": "readme",
-      "path": "skills/readme/SKILL.md",
-      "description": "Generate or update a README from project context. Detects project type, stack, and style automatically."
-    },
-    {
-      "name": "section",
-      "path": "skills/section/SKILL.md",
-      "description": "Generate or rewrite a single README section (badges, features, install, usage, api, config, contributing)."
-    },
-    {
-      "name": "badges",
-      "path": "skills/badges/SKILL.md",
-      "description": "Generate shields.io and other badge sets for your project."
-    }
-  ],
-  "commands": {
-    "readme": "skills/readme/SKILL.md",
-    "section": "skills/section/SKILL.md",
-    "badges": "skills/badges/SKILL.md"
-  }
+  "displayName": "README Forge",
+  "keywords": [
+    "readme",
+    "documentation",
+    "markdown",
+    "generator",
+    "badges",
+    "shields",
+    "claude-code",
+    "plugin",
+    "seo",
+    "auto-generate"
+  ]
 }
