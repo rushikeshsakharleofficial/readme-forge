@@ -1,0 +1,21 @@
+{
+  "name": "readme-forge",
+  "displayName": "README Forge",
+  "description": "AI-powered README generator for Claude Code. Reads your project structure, detects your stack, and writes production-quality documentation — not boilerplate.",
+  "version": "1.0.0",
+  "author": "readme-forge",
+  "license": "MIT",
+  "tags": ["readme", "documentation", "generator", "markdown", "productivity"],
+  "categories": ["documentation", "productivity"],
+  "skills": ["readme", "section", "badges"],
+  "examples": [
+    "/readme-forge:readme",
+    "/readme-forge:readme --style rich",
+    "/readme-forge:readme --style minimal",
+    "/readme-forge:readme --type library",
+    "/readme-forge:readme --update",
+    "/readme-forge:section features",
+    "/readme-forge:badges"
+  ],
+  "keywords": ["readme", "documentation", "markdown", "generator", "badges", "shields"]
+}
